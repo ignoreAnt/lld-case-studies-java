@@ -1,0 +1,15 @@
+/**
+ * Defines the module for the Car Rental System.
+ * The module name should be unique. A common convention is to base it on your groupId and artifactId.
+ */
+module com.ignoreant.carrentalsystem {
+    // For now, this module doesn't export any packages or require other specific modules
+    // from our project. We will add 'exports' and 'requires' clauses as needed.
+
+    // If you plan to use libraries that are not yet fully modular (i.e., automatic modules)
+    // and your code needs to access them via reflection for testing (e.g. Mockito with JUnit),
+    // you might need 'opens' clauses for your test module later.
+    // e.g., opens com.ignoreant.carrentalsystem.service to org.junit.jupiter.api, org.mockito;
+
+    // For now, we'll keep it simple.
+}
